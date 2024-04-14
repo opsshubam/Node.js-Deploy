@@ -23,6 +23,25 @@ A .env file is often used in Node.js applications to store configuration variabl
 <pre>npm install</pre>
 <pre>npm run start</pre>
 
+<hr>
+
+<h1>To deoploy the Project on AWS</h1>
+<h2>1. Set up an EC2 instance in AWS</h2>
+  <h3> Create an IAM User:
+  <h4> - Give Administrative Access to the new user</h4>
+  <h4> -Login as IAM user</h4>
+    
+  <h3> Create an EC2 instance</h3>
+  <h4>  - Select an OS image: UBUNTU</h4>
+  <h4>  - select t2.micro instance type</h4>
+  <h4>  - Create a key pair (.pem file)</h4>
+
+<h2> Connect to instance using SSH</h2>
+
+<pre> ssh -i .pemFilePath ubuntu@public_ip</pre>
+
+
+ 
 
 
 
