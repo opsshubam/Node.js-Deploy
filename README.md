@@ -9,7 +9,7 @@
 
 <h2>2. Setting Environment Variables</h2>
 
-<pre>DOMAIN= ""
+<pre>DOMAIN= "http://localhost:3000"
 PORT=3000
 STATIC_DIR="./client"
 
